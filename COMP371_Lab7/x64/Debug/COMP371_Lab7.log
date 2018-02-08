@@ -1,0 +1,61 @@
+﻿  Lab7.cpp
+Lab7.cpp(516): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+Lab7.cpp(566): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+Lab7.cpp(581): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Lab7.cpp(587): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Lab7.cpp(683): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+Lab7.cpp(713): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+Lab7.cpp(760): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+Lab7.cpp(771): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  objloader.cpp
+  Generating Code...
+Lab7.obj : error LNK2019: unresolved external symbol __imp__invalid_parameter referenced in function "public: char & __cdecl std::vector<char,class std::allocator<char> >::operator[](unsigned __int64)" (??A?$vector@DV?$allocator@D@std@@@std@@QEAAAEAD_K@Z)
+objloader.obj : error LNK2001: unresolved external symbol __imp__invalid_parameter
+Lab7.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z)
+Lab7.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+Lab7.obj : error LNK2019: unresolved external symbol __imp__CrtDbgReportW referenced in function "public: char & __cdecl std::vector<char,class std::allocator<char> >::operator[](unsigned __int64)" (??A?$vector@DV?$allocator@D@std@@@std@@QEAAAEAD_K@Z)
+objloader.obj : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+Lab7.obj : error LNK2019: unresolved external symbol SOIL_load_image referenced in function "unsigned int __cdecl loadCubemap(class std::vector<char const *,class std::allocator<char const *> >)" (?loadCubemap@@YAIV?$vector@PEBDV?$allocator@PEBD@std@@@std@@@Z)
+Lab7.obj : error LNK2019: unresolved external symbol SOIL_free_image_data referenced in function "unsigned int __cdecl loadCubemap(class std::vector<char const *,class std::allocator<char const *> >)" (?loadCubemap@@YAIV?$vector@PEBDV?$allocator@PEBD@std@@@std@@@Z)
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewBindAttribLocation
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Lab7.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+Lab7.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+msvcprtd.lib(locale0_implib.obj) : error LNK2019: unresolved external symbol __imp__free_dbg referenced in function "public: static void __cdecl std::_Fac_node::operator delete(void *)" (??3_Fac_node@std@@SAXPEAX@Z)
+msvcprtd.lib(locale0_implib.obj) : error LNK2019: unresolved external symbol __imp__malloc_dbg referenced in function "public: static void * __cdecl std::_Fac_node::operator new(unsigned __int64)" (??2_Fac_node@std@@SAPEAX_K@Z)
+..\glew\glew32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+..\glfw\glfw3dll.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+soil.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\ricar\OneDrive\Documents\Visual Studio 2015\Projects\CarGame\x64\Debug\COMP371_Lab7.exe : fatal error LNK1120: 44 unresolved externals
